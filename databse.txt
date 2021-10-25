@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS user_details(userid int NOT NULL AUTO_INCREMENT,user_name varchar255),user_email varchar(255) UNIQUE,user_password varchar(255),user_image varchar(255),total_orders varchar(30),created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,last_logged_in DATETIME ON UPDATE CURRENT_TIMESTAMP,PRIMARY KEY (userid))
+
+
+
+
+
+
+
+
+
